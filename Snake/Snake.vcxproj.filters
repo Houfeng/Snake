@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VM">
+      <UniqueIdentifier>{5494788c-a672-4a2b-962c-3dacd9146d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Complier">
+      <UniqueIdentifier>{7a9d2306-d71e-482e-821a-4732417a15cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Complier">
+      <UniqueIdentifier>{949eb3f2-92ca-484b-9d44-986dff83b2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VM">
+      <UniqueIdentifier>{60d94bd1-9133-4e35-bd76-53f6c51b6493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library">
+      <UniqueIdentifier>{7d35418a-db43-49fb-be97-b4e899004582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{d3da0cab-6e20-4c83-8b1a-69b3942638f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scaner.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryBlock.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stack.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryPool.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VM.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Procedure.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Asm.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generator.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Parser.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Emitor.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\VM.cpp">
+      <Filter>Source Files\VM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stack.cpp">
+      <Filter>Source Files\VM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryPool.cpp">
+      <Filter>Source Files\VM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CharExt.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Convert.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OutMessage.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Keyword.cpp">
+      <Filter>Source Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scanner.cpp">
+      <Filter>Source Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryBlock.cpp">
+      <Filter>Source Files\VM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ast.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Keyword.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Token.h">
+      <Filter>Header Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OpCodes.h">
+      <Filter>Header Files\VM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Snake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Procedure.cpp">
+      <Filter>Source Files\VM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Asm.cpp">
+      <Filter>Source Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generator.cpp">
+      <Filter>Source Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Parser.cpp">
+      <Filter>Source Files\Complier</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Emitor.cpp">
+      <Filter>Source Files\Complier</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snake程序设计语言.doc" />
+    <None Include="Snake程序设计语言.txt" />
+  </ItemGroup>
+</Project>
